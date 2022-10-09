@@ -1,11 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "DM Sans", sans-serif;
+  background: rgb(255, 240, 247);
+  background: linear-gradient(
+    68deg,
+    rgba(255, 240, 247, 1) 0%,
+    rgba(242, 242, 255, 1) 47%,
+    rgba(220, 241, 255, 1) 100%
+  );
+  z-index: -6;
+  position: relative;
 }
-
+.cursor {
+  pointer-events: none;
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 99;
+  mix-blend-mode: difference;
+}
+.navbar {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -13,6 +41,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+@media screen and (max-width: 480px) {
+  .cursor {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +56,31 @@ a {
     color: white;
     background: black;
   }
+}
+
+.circle {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -5;
+  opacity: 0.5;
+  margin: auto;
+}
+.button {
+  border: none;
+  background-color: #000000;
+  color: white;
+  font-weight: 700;
+  width: max-content;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px gray;
 }

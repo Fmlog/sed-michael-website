@@ -1,0 +1,68 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.card {
+  margin-top: 5vh;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  flex: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.header {
+  flex: 7;
+  margin: auto;
+  position: relative;
+
+}
+.image {
+  width: 700px;
+}
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.brand {
+  color: #009bfa;
+}
+.desc {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+  width: 720px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .card {
+    text-align: center;
+    align-items: center;
+    margin-top: 5vh;
+    padding-bottom: 50px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .desc {
+    margin-top: 10px;
+    width: 280px;
+    font-size: 15px;
+  }
+  .image {
+    width: 400px;
+    left: 0;
+    right: 0;
+  }
+}
