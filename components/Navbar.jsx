@@ -33,7 +33,7 @@ function Navbar() {
         <ul
           onClick={() => setOpen(false)}
           className={styles.menu}
-          style={{ right: open ? "0px" : "-80vw" }}
+          style={{ right: open ? "0px" : "-100vw" }}
         >
           <li className={styles.menuItem}>
             <Link href="/people">Our people</Link>

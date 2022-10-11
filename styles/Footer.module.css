@@ -42,12 +42,20 @@
   font-size: 14px;
   color: lightgrey;
 }
-.legal {
-  list-style: none;
+.bottom{ 
   font-size: 14px;
-  color: lightgrey;
-}
+  padding: 2vh;
+  color: gray;
 
+}
+.legal {
+  display: flex;
+  justify-content: center;
+}
+.legalItem{
+  display: inline;
+  margin-left: 5%;
+}
 @media screen and (max-width: 480px) {
   .container{
     height: auto;

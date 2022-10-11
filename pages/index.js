@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Clients from "../components/Clients";
+import CTA from "../components/CTA";
 import Intro from "../components/Intro";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
@@ -19,6 +20,7 @@ export default function Home({ services }) {
         <meta name="viewport" content="width=device-width, user-scalable=no" />
       </Head>
       <Intro />
+      <CTA />
       <Services services={services} />
       <Testimonials />
       <Clients />

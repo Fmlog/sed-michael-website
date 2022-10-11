@@ -1,0 +1,67 @@
+.container {
+  background: rgb(0, 155, 250);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 155, 250, 1) 0%,
+    rgba(174, 224, 255, 1) 70%,
+    rgba(220, 241, 255, 1) 100%
+  );
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: -5;
+}
+.heroBackground {
+ width: 70vw;
+}
+.title {
+    font-size: 50px;
+    color: white;
+    mix-blend-mode: hard-light;
+  }
+.topRadius,
+.bottomRadius,
+.topInnerRadius {
+  width: 50vw;
+  height: 50vw;
+  background: 0 0;
+  position: absolute;
+  border-radius: 999em;
+  z-index: 0;
+  border: 4px solid #c9f4ff;
+  left: -10vw;
+  top: -10vw;
+  opacity: 0.2;
+  animation: 4s ease-in-out 2s infinite alternate both running radiusPulse;
+  z-index: -5;
+}
+.topRadius {
+}
+.topInnerRadius {
+  left: -10vw;
+  top: 50vw;
+  transform-origin: center center;
+  animation: 4s ease-in-out 0s infinite alternate both running radiusPulseSmall;
+}
+.bottomRadius {
+  left: auto;
+  top: auto;
+  bottom: -10vw;
+  right: -10vw;
+  animation-delay: 1.4s;
+}
+@keyframes radiusPulse {
+  0% { transform: scale(0.9); }
+  50% { transform: scale(1); }
+  100% { transform: scale(0.9); }
+}
+
+@keyframes radiusPulseSmall {
+  0% { transform: scale(0.9); }
+  70% { transform: scale(1); }
+  100% { transform: scale(0.9); }
+}

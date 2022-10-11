@@ -13,8 +13,6 @@
   margin-bottom: 3%;
 }
 .wrapper {
-  background-color: rgb(234, 240, 255);
-  mix-blend-mode: multiply;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -23,6 +21,10 @@
 }
 .card {
   width: 30%;
+  height: 30%;
+  background-color: rgb(234, 240, 255);
+  mix-blend-mode: multiply;
+  padding: 5vh;
 }
 .comment {
   font-size: 20px;

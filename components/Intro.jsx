@@ -7,19 +7,17 @@ import Typewriter from "typewriter-effect";
 function Intro() {
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="#009BFA" bottom="-80vh" left="0" right="0"/>
+      <Circle backgroundColor="#009BFA" bottom="-80vh" left="0" right="0" />
       <div className={styles.card}>
         <h1 className={styles.title}>
-          <span className={styles.brand}>
-            <Typewriter
-              options={{
-                strings: ["Graphic Design", "Web Design", "Animation"],
-                autoStart: true,
-                delay: 50,
-                loop: true,
-              }}
-            />
-          </span>
+          <Typewriter
+            options={{
+              strings: ["Graphic Design", "Web Design", "Animation"],
+              autoStart: true,
+              delay: 50,
+              loop: true,
+            }}
+          />
         </h1>
         <p className={styles.desc}>
           Let us use creativity and excellent design to translate your voices,
@@ -27,7 +25,8 @@ function Intro() {
           audiences and improves the online presence of our clients.
         </p>
         <button className="button">
-          <Link href="/contact"> Explore</Link></button>
+          <Link href="/contact"> Explore</Link>
+        </button>
       </div>
       <div className={styles.header}>
         <div className={styles.image}>

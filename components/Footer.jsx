@@ -198,26 +198,22 @@ function Footer() {
       </div>
 
       <div>
-        <div className={styles.widgets}>
-          <ul className={styles.legal}>
-            <li className={styles.listItem}>
-              <a href="#">© Copyright Sed Michael 2022 – Digital Design</a>
-            </li>
-            <li className={styles.listItem}>
-              <a href="/privacy/">Sed Michael Privacy Policy</a>
-            </li>
-            <li className={styles.listItem}>
+        <div className={styles.bottom}>
+          <div className={styles.legal}>
+            <div className={styles.legalItem}>
+              <a href="#">© Copyright Sed Michael 2022</a>
+            </div>
+            <div className={styles.legalItem}>
+              <a href="/privacy/">Privacy Policy</a>
+            </div>
+            <div className={styles.legalItem}>
               <a href="/terms/">Terms &amp; Conditions</a>
-            </li>
-            <li className={styles.listItem}>
-              <a href="/cookies/">Sed Michael Cookies Policy</a>
-            </li>
-          </ul>{" "}
+            </div>
+            <div className={styles.legalItem}>
+              <a href="/cookies/">Cookies Policy</a>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div>
-        <div className={""}></div>
       </div>
     </footer>
   );
