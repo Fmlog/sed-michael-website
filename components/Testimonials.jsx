@@ -7,6 +7,15 @@ function Testimonials() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Testimonials</h1>
+      <div className={styles.image}>
+        <Image
+          src="/img/testimonials.svg"
+          width="500px"
+          height="170px"
+          objectFit="cover"
+          alt=""
+        />
+      </div>
       <div className={styles.wrapper}>
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className={styles.card}>

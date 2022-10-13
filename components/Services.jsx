@@ -6,15 +6,13 @@ function Services({ services }) {
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
-        <h1 className={styles.title}>Our know-hows</h1>
-        <p className={styles.subtitle}>
+        <h1 className={styles.subtitle}>
           These are some of the things we know how to do
-        </p>
+        </h1>
         <div className={styles.services}>
           {services.map((service) => (
             <Link key={service.id} href={`/services/${service.name}`}>
               <div className={styles.service}>
-                <span className={styles.cat}>{service.name}</span>
                 <div className={styles.media}>
                   {service.video ? (
                     <iframe
@@ -36,6 +34,10 @@ function Services({ services }) {
                       alt=""
                     />
                   )}
+                </div>
+                <div className={styles.cat}>
+                  <h4>{service.name}</h4>
+                  <p>{service.desc}</p>
                 </div>
               </div>
             </Link>

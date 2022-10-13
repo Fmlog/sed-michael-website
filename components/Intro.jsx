@@ -24,22 +24,14 @@ function Intro() {
           stories, identities, and messages. We create work that appeals to
           audiences and improves the online presence of our clients.
         </p>
-        <button className="button">
-          <Link href="/contact"> Explore</Link>
-        </button>
       </div>
-      <div className={styles.header}>
-        <div className={styles.image}>
-          <Image
-            src="/img/header-illustration.svg"
-            width="100%"
-            height="100%"
-            layout="responsive"
-            objectFit="cover"
-            alt=""
-          />
-        </div>
-      </div>
+        <Image
+          src="/img/header-illustration.svg"
+          width="800px"
+          height="800px"
+          objectFit="contain"
+          alt=""
+        />
     </div>
   );
 }

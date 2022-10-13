@@ -3,9 +3,10 @@
 }
 .title {
   text-align: center;
+  font-size: 35px;
 }
 .logoOuter {
-  max-width: 800px;
+  max-width: 1000px;
   overflow: hidden;
   margin: auto;
   padding-bottom: 50px;
@@ -33,13 +34,14 @@
   }
   .title {
     padding: 20px;
+    font-size: 30px;
   }
   .logoOuter {
     max-width: 400px;
     padding-bottom: 30px;
   }
   .logoInner {
-    height: 60px;
+    height: 80px;
     background: url(/img/client-logos.svg) 0 / contain repeat-x;
 
   }

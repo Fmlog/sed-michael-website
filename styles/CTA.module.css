@@ -6,23 +6,35 @@
     rgba(174, 224, 255, 1) 70%,
     rgba(220, 241, 255, 1) 100%
   );
-  position: relative;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  z-index: -5;
+  position: relative;
 }
-.heroBackground {
- width: 70vw;
+.wrapper {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 100px 0;
+}
+.card {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  right: 0;
 }
 .title {
-    font-size: 50px;
-    color: white;
-    mix-blend-mode: hard-light;
-  }
+  font-size: 50px;
+  color: white;
+  mix-blend-mode: hard-light;
+}
 .topRadius,
 .bottomRadius,
 .topInnerRadius {
@@ -37,9 +49,7 @@
   top: -10vw;
   opacity: 0.2;
   animation: 4s ease-in-out 2s infinite alternate both running radiusPulse;
-  z-index: -5;
-}
-.topRadius {
+  z-index: 0;
 }
 .topInnerRadius {
   left: -10vw;
@@ -55,13 +65,37 @@
   animation-delay: 1.4s;
 }
 @keyframes radiusPulse {
-  0% { transform: scale(0.9); }
-  50% { transform: scale(1); }
-  100% { transform: scale(0.9); }
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
 
 @keyframes radiusPulseSmall {
-  0% { transform: scale(0.9); }
-  70% { transform: scale(1); }
-  100% { transform: scale(0.9); }
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }
+  .wrapper {
+    width: 80vw;
+    flex-direction: column;
+  }
+  .image{
+    display: none;
+  }
 }

@@ -69,9 +69,15 @@
   .services {
     justify-content: center;
   }
+  .innerContainer{
+    width: 80vw;
+  }
   .service {
     width: 300px;
     height: 300px;
+  }
+  .cat {
+    font-size: 15px;
   }
   .subtitle {
     font-size: 30px;

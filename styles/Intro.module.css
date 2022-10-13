@@ -1,6 +1,7 @@
 .container {
   height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
   overflow: hidden;
   position: relative;
@@ -8,22 +9,12 @@
 .card {
   margin-top: 5vh;
   padding-top: 5%;
-  padding-bottom: 2%;
   flex: 3;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   position: relative;
-}
-.header {
-  flex: 7;
-  margin: auto;
-  position: relative;
-
-}
-.image {
-  width: 700px;
 }
 .title {
   font-size: 50px;
@@ -47,22 +38,18 @@
     justify-content: space-between;
   }
   .card {
+    padding-top: 0;
     text-align: center;
     align-items: center;
-    margin-top: 5vh;
-    padding-bottom: 50px;
+    margin-top: 10vh;
   }
   .title {
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
   .desc {
     margin-top: 10px;
     width: 280px;
-    font-size: 15px;
-  }
-  .image {
-    width: 400px;
-    left: 0;
-    right: 0;
+    font-size: 17px;
   }
 }
