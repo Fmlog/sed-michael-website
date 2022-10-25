@@ -13,7 +13,7 @@ function CTA() {
       <div className={styles.wrapper}>
         <div className={styles.card}>
           <h1 className={styles.title}>
-            Want to Upscale your brand's visual reputation?
+            Want to Upscale your brand&apos;s visual reputation?
           </h1>
           <button className="button">
             <Link href="/contact">Contact</Link>
@@ -24,8 +24,8 @@ function CTA() {
             src="/img/call-to-action.svg"
             width="700px"
             height="500px"
-            objectFit="fill "
-            alt=""
+            objectFit="fill"
+            alt="sedmichael-call-to-action"
           />
         </div>
       </div>

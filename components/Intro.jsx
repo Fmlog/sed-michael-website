@@ -34,7 +34,7 @@ function Intro() {
         width="800px"
         height="800px"
         objectFit="contain"
-        alt=""
+        alt="sed-michael-header"
       />
     </div>
   );

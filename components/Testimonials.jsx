@@ -13,7 +13,7 @@ function Testimonials() {
           width="500px"
           height="170px"
           objectFit="cover"
-          alt=""
+          alt="sed-michael-testimonials"
         />
       </div>
       <div className={styles.wrapper}>
@@ -23,7 +23,7 @@ function Testimonials() {
               src={`/img/${testimonial.logo}`}
               width="40px"
               height="40px"
-              alt=""
+              alt={testimonial.title}
             />
             <p className={styles.comment}>{testimonial.comment}</p>
             <div className={styles.person}>
@@ -33,7 +33,7 @@ function Testimonials() {
                 width="45px"
                 height="45px"
                 objectFit="cover"
-                alt=""
+                alt={testimonial.title}
               />
               <div className={styles.info}>
                 <span className={styles.name}> {testimonial.name} </span>

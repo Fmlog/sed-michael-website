@@ -8,17 +8,17 @@ function Footer() {
         <div className={styles.widgets}>
           <div className={styles.widget}>
             <div className={""}>
-              <a aria-current="page" className={styles.logo} href="/">
+              <Link aria-current="page" className={styles.logo} href="/">
                 <Image
                   src="/img/sedmichael-wt-logo.svg"
                   width="120%"
                   height="20%"
                   alt="sed-michael-logo"
                 />
-              </a>
+              </Link>
               <ul className={styles.list}>
                 <li className={styles.listItem}>
-                  <a
+                  <Link
                     className={styles.link}
                     href="https://twitter.com/sed_michael"
                     target="_blank"
@@ -28,13 +28,13 @@ function Footer() {
                       src={"/img/twitter.svg"}
                       width="25px"
                       height="25px"
-                      alt=""
+                      alt="sed-michael-twitter"
                     />
                     <span className={styles.linkTxt}>Twitter</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className={styles.listItem}>
-                  <a
+                  <Link
                     className={styles.link}
                     href="https://youtube.com/channel/UCYfJUwfaQ7L5r2KIING5mZw"
                     target="_blank"
@@ -44,13 +44,13 @@ function Footer() {
                       src={"/img/youtube.svg"}
                       width="25px"
                       height="25px"
-                      alt=""
+                      alt="sed-michael-youtube"
                     />
                     <span className={styles.linkTxt}>YouTube</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className={styles.listItem}>
-                  <a
+                  <Link
                     className={styles.link}
                     href="https://instagram.com/sedmichael_design"
                     target="_blank"
@@ -60,13 +60,13 @@ function Footer() {
                       src={"/img/instagram.svg"}
                       width="25px"
                       height="25px"
-                      alt=""
+                      alt="sed-michael-youtube"
                     />
                     <span className={styles.linkTxt}>Instagram</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className={styles.listItem}>
-                  <a
+                  <Link
                     className={styles.link}
                     href="https://linkedin.com/company/sed-michael-design/"
                     target="_blank"
@@ -76,10 +76,10 @@ function Footer() {
                       src={"/img/linkedin.svg"}
                       width="25px"
                       height="25px"
-                      alt=""
+                      alt="sed-michael-linkedin"
                     />
                     <span className={styles.linkTxt}>LinkedIn</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -146,19 +146,19 @@ function Footer() {
                     </Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/sales-video-production/">Sales Videos</a>
+                    <Link href="/sales-video-production/">Sales Videos</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/social-media-videos/">Social Media Videos</a>
+                    <Link href="/social-media-videos/">Social Media Videos</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/teaser-videos/">Teaser Videos</a>
+                    <Link href="/teaser-videos/">Teaser Videos</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/training-video-production/">Training Videos</a>
+                    <Link href="/training-video-production/">Training Videos</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/video-ad-production/">Video Ads</a>
+                    <Link href="/video-ad-production/">Video Ads</Link>
                   </li>
                 </ul>
               </div>
@@ -170,25 +170,25 @@ function Footer() {
               <div className={""}>
                 <ul className={styles.list}>
                   <li className={styles.listItem}>
-                    <a href="/pricing/">Pricing</a>
+                    <Link href="/pricing/">Pricing</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/why-us/">Why Sed Michael</a>
+                    <Link href="/why-us/">Why Sed Michael</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/customers/">Our Customers &amp; 5* Reviews</a>
+                    <Link href="/customers/">Our Customers &amp; 5* Reviews</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/team/">Our Team</a>
+                    <Link href="/team/">Our Team</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/blog/">Blog</a>
+                    <Link href="/blog/">Blog</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/guides/">Guides</a>
+                    <Link href="/guides/">Guides</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <a href="/contact-us/">Contact Us</a>
+                    <Link href="/contact-us/">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -201,16 +201,16 @@ function Footer() {
         <div className={styles.bottom}>
           <div className={styles.legal}>
             <div className={styles.legalItem}>
-              <a href="#">© Copyright Sed Michael 2022</a>
+              <Link href="#">© Copyright Sed Michael 2022</Link>
             </div>
             <div className={styles.legalItem}>
-              <a href="/privacy/">Privacy Policy</a>
+              <Link href="/privacy/">Privacy Policy</Link>
             </div>
             <div className={styles.legalItem}>
-              <a href="/terms/">Terms &amp; Conditions</a>
+              <Link href="/terms/">Terms &amp; Conditions</Link>
             </div>
             <div className={styles.legalItem}>
-              <a href="/cookies/">Cookies Policy</a>
+              <Link href="/cookies/">Cookies Policy</Link>
             </div>
           </div>
         </div>

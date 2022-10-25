@@ -8,13 +8,9 @@ function Clients() {
         <h2 class={styles.title}>
           From startups to enterprise, we’re trusted globally!
         </h2>
-
         <div class={styles.logoOuter}>
           <div class={styles.logoInner} />
         </div>
-        <noscript>
-          <Image src=""/>
-        </noscript>
       </div>
     </div>
   );

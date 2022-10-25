@@ -28,7 +28,7 @@ function Services({ services }) {
                       width="100%"
                       height="100%"
                       layout="responsive"
-                      alt=""
+                      alt={service.name}
                     />
                   )}
                 </div>
