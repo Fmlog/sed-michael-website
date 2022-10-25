@@ -1,9 +1,9 @@
 export const projects = [
   {
     id: 1,
-    name: "design",
+    name: "Animated Explainer Videos",
     title: "Design",
-    desc: "Test description to play with data UI integration",
+    desc: "Make eye-catching explainer videos for your business or product. Let's make a video that matches the tone and style of your brand.",
     longDesc:
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
     video:
@@ -38,13 +38,13 @@ export const projects = [
   },
   {
     id: 2,
-    name: "development",
+    name: "Web Development",
     title: "Development",
-    desc: "Test description to play with data UI development",
+    desc: "Create fun and engaging responsive websites. We guarantee that your websites also functions well in search engines.",
     longDesc:
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
 
-    photo: "test.svg",
+    photo: "web-design.svg",
     images: [
       {
         id: 1,
@@ -76,11 +76,11 @@ export const projects = [
     id: 3,
     name: "Graphic Design",
     title: "Design",
-    desc: "Test description to play with data UI design",
+    desc: "from UI design to logo design, we provide end-to-end design services. Whatever your design needs are, we can meet meet them.",
     longDesc:
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
     // video: "https://youtu.be/ucP-aJ444jE",
-    photo: "test.svg",
+    photo: "graphic-design.svg",
     images: [
       {
         id: 1,
@@ -110,30 +110,34 @@ export const projects = [
   },
 ];
 
+export const web = [
+  {
+  }
+]
 
 export const testimonials = [
   {
     id: 1,
-    logo: "ai.svg",
-    avatar: "avatar.jpg",
-    comment: "blah blah blah blah blah blah",
-    name: "Femi Alogba",
-    title: "Software Engineer",
+    logo: "USA.svg",
+    avatar: "Julian.jpeg",
+    comment: '"Would hire again in a heartbeat!"',
+    name: "Julian",
+    title: "Agency Owner",
   },
   {
     id: 2,
-    logo: "ps.svg",
-    avatar: "avatar.jpg",
-    comment: "blah blah blah blah blah blah",
-    name: "Femi Alogba",
-    title: "Graphic Designer",
+    logo: "UK.svg",
+    avatar: "Aether.png",
+    comment: '"Quality of work is incredible and project completed efficiently within time-frame."',
+    name: "Kelvin",
+    title: "Co-Director",
   },
   {
     id: 2,
-    logo: "ps.svg",
-    avatar: "avatar.jpg",
-    comment: "blah blah blah blah blah blah",
-    name: "Sed Michael",
+    logo: "NG.svg",
+    avatar: "Chinwe.jpeg",
+    comment: '"Excellent working experience working with them. Highly recommend."',
+    name: "Chinwe",
     title: "Team Lead",
   },
 ];

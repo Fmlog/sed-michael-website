@@ -6,9 +6,7 @@ function Services({ services }) {
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
-        <h1 className={styles.subtitle}>
-          These are some of the things we know how to do
-        </h1>
+        <h1 className={styles.title}>Services we can provide for you</h1>
         <div className={styles.services}>
           {services.map((service) => (
             <Link key={service.id} href={`/services/${service.name}`}>
@@ -30,13 +28,12 @@ function Services({ services }) {
                       width="100%"
                       height="100%"
                       layout="responsive"
-                      objectFit="cover"
                       alt=""
                     />
                   )}
                 </div>
                 <div className={styles.cat}>
-                  <h4>{service.name}</h4>
+                  <h3>{service.name}</h3>
                   <p>{service.desc}</p>
                 </div>
               </div>

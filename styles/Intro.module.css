@@ -8,7 +8,6 @@
 }
 .card {
   margin-top: 5vh;
-  padding-top: 5%;
   flex: 3;
   display: flex;
   align-items: center;
@@ -17,19 +16,19 @@
   position: relative;
 }
 .title {
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 700;
   margin-bottom: 0;
 }
-.brand {
-  color: #009bfa;
-}
 .desc {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   margin-top: 30px;
   width: 720px;
+}
+.descM {
+  display: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -44,12 +43,16 @@
     margin-top: 10vh;
   }
   .title {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
   }
   .desc {
+    display: none;
+  }
+  .descM{
+    display: unset;
     margin-top: 10px;
     width: 280px;
-    font-size: 17px;
+    font-size: 20px;
   }
 }

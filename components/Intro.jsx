@@ -24,14 +24,18 @@ function Intro() {
           stories, identities, and messages. We create work that appeals to
           audiences and improves the online presence of our clients.
         </p>
+        <p className={styles.descM}>
+          We create work that appeal to audiences and improves the online
+          presence of our clients.
+        </p>
       </div>
-        <Image
-          src="/img/header-illustration.svg"
-          width="800px"
-          height="800px"
-          objectFit="contain"
-          alt=""
-        />
+      <Image
+        src="/img/header-illustration.svg"
+        width="800px"
+        height="800px"
+        objectFit="contain"
+        alt=""
+      />
     </div>
   );
 }

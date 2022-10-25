@@ -23,12 +23,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px;
 }
 .card {
-  width: 30%;
-  height: 30%;
+  width: 400px;
+  height: 300px;
+  margin-right: 30px;
   background-color: rgb(234, 240, 255);
   flex-direction: column;
   mix-blend-mode: multiply;
