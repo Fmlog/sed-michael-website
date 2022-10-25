@@ -1,2 +1,3 @@
-Sed Michael Design Agency
-> sedmichael.com
+# Sed Michael Design Agency
+WORK IN PROGRESS
+> [Website](https://sedmichael.com)
