@@ -1,7 +1,7 @@
 # Ignore pages that are yest to be built.
-/pages/graphic-design
-/pages/video
-/pages/web
+/pages/graphic-design/
+/pages/video/
+/pages/web/
 
 # dependencies
 /node_modules
