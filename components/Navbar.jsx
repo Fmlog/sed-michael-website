@@ -9,7 +9,7 @@ function Navbar() {
     <div className="navbar">
       <div className={styles.container}>
         <Link href="/">
-          <Image src="/img/sedmichael-wt-logo.svg" width="100%" height="100%" />
+          <Image src="/img/sedmichael-wt-logo.svg" width="100%" height="100%" alt="sed-michael-logo"/>
         </Link>
         <ul className={styles.list}>
           <li className={styles.listItem}>
