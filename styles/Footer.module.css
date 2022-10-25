@@ -8,25 +8,25 @@
   padding: 0 50px;
   overflow: hidden;
 }
-.title{
+.title {
   font-size: 20px;
   margin: 0;
 }
-.link {
+.linkTxt {
   display: flex;
   align-items: center;
 }
-.linkTxt {
-  margin-left: 5px;
+.image {
+  margin-right: 10px;
 }
 .list {
   list-style: none;
   padding-left: 0;
 }
-.listItem{
+.listItem {
   margin-bottom: 1%;
 }
-.listItem:hover{
+.listItem:hover {
   color: gray;
 }
 .widgets {
@@ -42,27 +42,26 @@
   font-size: 14px;
   color: lightgrey;
 }
-.bottom{ 
+.bottom {
   font-size: 14px;
   padding: 2vh;
   color: gray;
-
 }
 .legal {
   display: flex;
   justify-content: center;
 }
-.legalItem{
+.legalItem {
   display: inline;
   margin-left: 5%;
 }
 @media screen and (max-width: 480px) {
-  .container{
+  .container {
     height: auto;
     padding: 20px;
     flex-direction: column;
   }
-  .widgets{
+  .widgets {
     flex-direction: column;
     padding: 0;
   }

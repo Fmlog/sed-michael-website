@@ -24,13 +24,17 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      src={"/img/twitter.svg"}
-                      width="25px"
-                      height="25px"
-                      alt="sed-michael-twitter"
-                    />
-                    <span className={styles.linkTxt}>Twitter</span>
+                    <div className={styles.linkTxt}>
+                      <div className={styles.image}>
+                        <Image
+                          src={"/img/twitter.svg"}
+                          width="25px"
+                          height="25px"
+                          alt="sed-michael-twitter"
+                        />
+                      </div>
+                      Twitter
+                    </div>
                   </Link>
                 </li>
                 <li className={styles.listItem}>
@@ -40,13 +44,17 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      src={"/img/youtube.svg"}
-                      width="25px"
-                      height="25px"
-                      alt="sed-michael-youtube"
-                    />
-                    <span className={styles.linkTxt}>YouTube</span>
+                    <div className={styles.linkTxt}>
+                      <div className={styles.image}>
+                        <Image
+                          src={"/img/youtube.svg"}
+                          width="25px"
+                          height="25px"
+                          alt="sed-michael-youtube"
+                        />
+                      </div>
+                      YouTube
+                    </div>
                   </Link>
                 </li>
                 <li className={styles.listItem}>
@@ -56,13 +64,17 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      src={"/img/instagram.svg"}
-                      width="25px"
-                      height="25px"
-                      alt="sed-michael-youtube"
-                    />
-                    <span className={styles.linkTxt}>Instagram</span>
+                    <div className={styles.linkTxt}>
+                      <div className={styles.image}>
+                        <Image
+                          src={"/img/instagram.svg"}
+                          width="25px"
+                          height="25px"
+                          alt="sed-michael-youtube"
+                        />
+                      </div>
+                      Instagram
+                    </div>
                   </Link>
                 </li>
                 <li className={styles.listItem}>
@@ -72,13 +84,17 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      src={"/img/linkedin.svg"}
-                      width="25px"
-                      height="25px"
-                      alt="sed-michael-linkedin"
-                    />
-                    <span className={styles.linkTxt}>LinkedIn</span>
+                    <div className={styles.linkTxt}>
+                      <div className={styles.image}>
+                        <Image
+                          src={"/img/linkedin.svg"}
+                          width="25px"
+                          height="25px"
+                          alt="sed-michael-linkedin"
+                        />
+                      </div>
+                      LinkedIn
+                    </div>
                   </Link>
                 </li>
               </ul>
@@ -149,13 +165,17 @@ function Footer() {
                     <Link href="/sales-video-production/">Sales Videos</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/social-media-videos/">Social Media Videos</Link>
+                    <Link href="/social-media-videos/">
+                      Social Media Videos
+                    </Link>
                   </li>
                   <li className={styles.listItem}>
                     <Link href="/teaser-videos/">Teaser Videos</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/training-video-production/">Training Videos</Link>
+                    <Link href="/training-video-production/">
+                      Training Videos
+                    </Link>
                   </li>
                   <li className={styles.listItem}>
                     <Link href="/video-ad-production/">Video Ads</Link>
@@ -176,7 +196,9 @@ function Footer() {
                     <Link href="/why-us/">Why Sed Michael</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/customers/">Our Customers &amp; 5* Reviews</Link>
+                    <Link href="/customers/">
+                      Our Customers &amp; 5* Reviews
+                    </Link>
                   </li>
                   <li className={styles.listItem}>
                     <Link href="/team/">Our Team</Link>

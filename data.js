@@ -76,7 +76,7 @@ export const projects = [
     id: 3,
     name: "Graphic Design",
     title: "Design",
-    desc: "from UI design to logo design, we provide end-to-end design services. Whatever your design needs are, we can meet meet them.",
+    desc: "From UI design to logo design, we provide end-to-end design services. Whatever your design needs are, we can meet meet them.",
     longDesc:
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
     // video: "https://youtu.be/ucP-aJ444jE",
