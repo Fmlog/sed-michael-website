@@ -1,6 +1,5 @@
 .container {
   height: 70px;
-  backdrop-filter: blur(6.7px);
   background: rgba(0, 0, 0, 0.8);
   color: white;
   display: flex;
@@ -11,10 +10,11 @@
   position: relative;
 }
 
+
 .listItem {
   display: inline;
   margin-right: 30px;
-  font-size: 14px;
+  font-size: 20px;
   color: lightgray;
   cursor: pointer;
 }
@@ -43,7 +43,6 @@
   z-index: 9999;
   margin: 0;
   padding: 0;
-  font-weight: bold;
   color: lightgray;
   list-style: none;
   transition: all 1s ease;
@@ -70,6 +69,7 @@
     align-items: center;
     justify-content: center;
   }
-  .menuItem{margin: 20px;}
+  .menuItem{margin: 20px;
+  font-size: 20px;}
 
 }

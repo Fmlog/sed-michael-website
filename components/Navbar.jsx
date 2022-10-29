@@ -8,12 +8,17 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className={styles.container}>
-        <Link href="/">
-          <Image src="/img/sedmichael-wt-logo.svg" width="100%" height="100%" alt="sed-michael-logo"/>
+        <Link href="/" className={styles.logo}>
+          <Image
+            src="/img/sedmichael-wt-logo.svg"
+            width="150px"
+            height="40px"
+            alt="sed-michael-logo"
+          />
         </Link>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            <Link href="/people">Our people</Link>
+            <Link href="/about">about us</Link>
           </li>
           <li className={styles.listItem}>
             <Link href="/work">Our work</Link>
