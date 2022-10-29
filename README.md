@@ -1,3 +1,4 @@
 # Sed Michael Design Agency
 WORK IN PROGRESS
-> [Website](https://sedmichael.com)
+> [New Website](https://sed-michael-website.vercel.app/) WIP
+> [Old Website](https://sedmichael.com)

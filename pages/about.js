@@ -10,7 +10,8 @@ function about({ services }) {
     <>
       <div className={styles.container}>
         <div className={styles.innerContainer}>
-          <h1 className={styles.title}>Services we can provide for you</h1>
+          <h1 className={styles.title}>About Us</h1>
+          <h1 className={styles.title}>Our Team</h1>
           <div className={styles.services}>
             {services.map((service) => (
               <Link key={service.id} href={`/services/${service.name}`}>
