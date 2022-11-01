@@ -16,6 +16,9 @@
   font-size: 20px;
   color: lightgray;
   cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .hamburger {
