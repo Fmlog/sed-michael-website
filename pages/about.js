@@ -18,7 +18,7 @@ const customStyles = {
 };
 
 Modal.setAppElement("#__next");
-function about() {
+function About() {
   const router = useRouter();
   return (
     <div className={styles.container}>
@@ -28,7 +28,7 @@ function about() {
           We are a forward-thinking digital agency that assists clients in
           translating their messages via creative thought and implementation.
           Since our inception in 2020, we have produced work that has engaged
-          with our client's audiences and transformed our clients' digital
+          with our client&apos;s audiences and transformed our clients&apos; digital
           reflection.
         </p>
         <h1 className={styles.title}>Our Team</h1>
@@ -82,4 +82,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;
