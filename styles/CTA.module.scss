@@ -3,8 +3,7 @@
   background: linear-gradient(
     180deg,
     rgba(0, 155, 250, 1) 0%,
-    rgba(174, 224, 255, 1) 70%,
-    rgba(220, 241, 255, 1) 100%
+    rgb(43, 1, 51) 100%
   );
   height: auto;
   overflow: hidden;
@@ -29,6 +28,7 @@
 }
 .image {
   right: 0;
+  mix-blend-mode: luminosity;
 }
 .title {
   font-size: 50px;
@@ -95,7 +95,7 @@
     width: 80vw;
     flex-direction: column;
   }
-  .image{
+  .image {
     display: none;
   }
 }

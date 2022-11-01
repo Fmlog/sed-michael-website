@@ -118,30 +118,36 @@ export const testimonials = [
 
 export const people = [
   {
+    id: 1,
     name: "Femi Alogba",
     role: "Designer/Developer",
     desc: "Make eye-catching explainer videos for your business or product. Let's make a video that matches the tone and style of your brand.",
     longDesc:
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
     photo: "Femi.jpg",
-    photoBW: "Femi-BW.jpg"
+    photoBW: "Femi-BW.jpg",
+    image: "Femi-BW.jpg",
   },
   {
+    id: 2,
     name: "Paul Kyunni",
     role: "Designer",
     desc: "Create fun and engaging responsive websites. We guarantee that your websites also functions well in search engines.",
     longDesc:
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
     photo: "Paul.jpg",
-    photoBW: "Paul-BW.jpg"
+    photoBW: "Paul-BW.jpg",
+    image: "Paul-BW.jpg",
   },
   {
+    id: 3,
     name: "Happiness Obelley",
     role: "Writer",
     desc: "Create fun and engaging responsive websites. We guarantee that your websites also functions well in search engines.",
     longDesc:
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
     photo: "Happiness.jpg",
-    photoBW: "Happiness-BW.jpg"
+    photoBW: "Happiness-BW.jpg",
+    image: "Happiness-BW.jpg",
   },
 ];

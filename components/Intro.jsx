@@ -20,8 +20,7 @@ function Intro() {
           />
         </h1>
         <p className={styles.desc}>
-          Let us use creativity and excellent design to translate your voices,
-          stories, identities, and messages. We create work that appeals to
+        Let us translate your ideas with creativity and superb design. We create work that appeals to
           audiences and improves the online presence of our clients.
         </p>
         <p className={styles.descM}>
