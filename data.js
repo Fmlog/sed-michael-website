@@ -126,7 +126,7 @@ export const people = [
       "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
     photo: "Femi.jpg",
     photoBW: "Femi-BW.jpg",
-    image: "Femi-BW.jpg",
+    image: "femi-photo.jpg",
   },
   {
     id: 2,

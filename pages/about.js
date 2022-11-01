@@ -42,14 +42,24 @@ function about() {
               >
                 <div className={styles.person}>
                   <div className={styles.media}>
-                    <Image
-                      className={styles.image}
-                      src={`/img/${staff.photo}`}
-                      width="100%"
-                      height="100%"
-                      layout="responsive"
-                      alt={staff.name}
-                    />
+                      <div className={styles.imageTop}>
+                        <Image
+                          src={`/img/${staff.photo}`}
+                          width="100%"
+                          height="100%"
+                          layout="responsive"
+                          alt={staff.name}
+                        />
+                      </div>
+                      <div className={styles.image}>
+                        <Image
+                          src={`/img/${staff.photoBW}`}
+                          width="100%"
+                          height="100%"
+                          layout="responsive"
+                          alt={staff.name}
+                        />
+                    </div>
                   </div>
                   <div className={styles.description}>
                     <h3>{staff.name}</h3>

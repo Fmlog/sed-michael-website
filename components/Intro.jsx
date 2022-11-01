@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 function Intro() {
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="#009BFA" bottom="-80vh" left="0" right="0" />
+      <Circle backgroundColor="#0C3EA8" bottom="-80vh" left="0" right="0" />
       <div className={styles.card}>
         <h1 className={styles.title}>
           <Typewriter

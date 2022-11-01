@@ -16,8 +16,10 @@ export default function Staff({ person }) {
           <div className={styles.image}>
             <Image
               src={`/img/${staff.image}`}
-              width="400px"
-              height="400px"
+              width="100%"
+              height="130%"
+              layout="responsive"
+              objectFit="cover"
               alt={staff.name}
             />
           </div>
