@@ -141,6 +141,17 @@ export const people = [
   },
   {
     id: 3,
+    name: "Bolaji Owolabi",
+    role: "Designer",
+    desc: "Create fun and engaging responsive websites. We guarantee that your websites also functions well in search engines.",
+    longDesc:
+      "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
+    photo: "Bolaji.jpg",
+    photoBW: "Bolaji-BW.jpg",
+    image: "Bolaji-BW.jpg",
+  },
+  {
+    id: 3,
     name: "Happiness Obelley",
     role: "Writer",
     desc: "Create fun and engaging responsive websites. We guarantee that your websites also functions well in search engines.",
