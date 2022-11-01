@@ -1,5 +1,5 @@
 import { projects } from "../../data";
-import styles from "../../styles/Work.module.css";
+import styles from "../../styles/Work.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 

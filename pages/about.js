@@ -1,83 +1,75 @@
 import { people } from "../data.js";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import styles from "../styles/About.module.css";
-import React from "react";
+import Modal from "react-modal";
+import Staff from "../components/Staff";
+import styles from "../styles/About.module.scss";
+import { useRouter } from "next/router";
 
-function about({ services }) {
-  const [display, setDisplay] = useState("none");
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
 
-  const openModal = (id) => {
-     const modal = document.getElementById("modal"+id);
-     modal.style.display = "block";
-  };
-  const closeModal = () => {
-    const modal = document.getElementById("modal"+id);
-    modal.style.display = "none";
-  };
+Modal.setAppElement("#__next");
+function about() {
+  const router = useRouter();
   return (
-    <>
-      <div className={styles.container}>
-        <div className={styles.innerContainer}>
-          <h1 className={styles.title}>About Us</h1>
-          <h1 className={styles.title}>Our Team</h1>
-          <div className={styles.services}>
-            {services.map((service) => (
-              <div className={styles.serviceContainer}>
-                <div onClick={openModal(service.id)}>
-                  <div className={styles.service}>
-                    <div className={styles.media}>
-                      <Image
-                        className={styles.image}
-                        src={`/img/${service.photo}`}
-                        width="100%"
-                        height="100%"
-                        layout="responsive"
-                        alt={service.name}
-                      />
-                    </div>
-                    <div className={styles.cat}>
-                      <h3>{service.name}</h3>
-                      <p>{service.role}</p>
-                    </div>
+    <div className={styles.container}>
+      <div className={styles.innerContainer}>
+        <h1 className={styles.title}>About Us</h1>
+        <p>
+          We are a forward-thinking digital agency that assists clients in
+          translating their messages via creative thought and implementation.
+          Since our inception in 2020, we have produced work that has engaged
+          with our client's audiences and transformed our clients' digital
+          reflection.
+        </p>
+        <h1 className={styles.title}>Our Team</h1>
+        <div className={styles.people}>
+          {people.map((staff) => (
+            <div key={staff.id} className={styles.serviceContainer}>
+              <Link
+                key={staff.id}
+                href={`about/?person=${staff.id}`}
+                as={`/people/${staff.id}`}
+              >
+                <div className={styles.person}>
+                  <div className={styles.media}>
+                    <Image
+                      className={styles.image}
+                      src={`/img/${staff.photo}`}
+                      width="100%"
+                      height="100%"
+                      layout="responsive"
+                      alt={staff.name}
+                    />
+                  </div>
+                  <div className={styles.description}>
+                    <h3>{staff.name}</h3>
+                    <p>{staff.role}</p>
                   </div>
                 </div>
-                <div>
-                  <div
-                    class={styles.modal}
-                    id={"modal" + service.id}
-                  >
-                    <div class={styles.modal__inner}>
-                      <h2>{service.name}</h2>
-                      <button type="button" onClick={closeModal(service.id)}>
-                        &times;
-                      </button>
-                      <div className={styles.image}>
-                        <Image
-                          src={`/img/${service.image}`}
-                          width="400px"
-                          height="400px"
-                          alt={service.name}
-                        />
-                      </div>
-                      <p>{service.desc}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+              </Link>
+            </div>
+          ))}
         </div>
+        <Modal
+          isOpen={!!router.query.person}
+          onRequestClose={() => router.push("/about/")}
+          style={customStyles}
+        >
+          <Staff person={router.query.person} />
+        </Modal>
       </div>
-    </>
+    </div>
   );
 }
-export const getStaticProps = () => {
-  const services = people;
-  return {
-    props: { services },
-  };
-};
 
 export default about;

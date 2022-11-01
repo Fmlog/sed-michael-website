@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+  height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -7,7 +7,6 @@
   position: relative;
 }
 .card {
-  margin-top: 5vh;
   flex: 3;
   display: flex;
   align-items: center;
@@ -33,14 +32,13 @@
 
 @media screen and (max-width: 480px) {
   .container {
-    height: 100vh;
+    height: calc(100vh - 70px);
     justify-content: space-between;
   }
   .card {
     padding-top: 0;
     text-align: center;
     align-items: center;
-    margin-top: 10vh;
   }
   .title {
     font-size: 50px;
@@ -49,7 +47,7 @@
   .desc {
     display: none;
   }
-  .descM{
+  .descM {
     display: unset;
     margin-top: 10px;
     width: 280px;

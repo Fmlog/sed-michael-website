@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     name: "Animated Explainer Videos",
     title: "Animation",
@@ -88,66 +88,17 @@ export const projects = [
   },
 ];
 
-export const web = [{}];
+const result = projects.filter((obj) => {
+  return obj.title === "Development";
+}) [0];
+const result2 = projects.find(x => x.name === "Graphic%20Design");
 
-export const testimonials = [
-  {
-    logo: "USA.svg",
-    avatar: "Julian.jpeg",
-    comment: '"Would hire again in a heartbeat!"',
-    name: "Julian",
-    title: "Agency Owner",
-  },
-  {
-    logo: "UK.svg",
-    avatar: "Aether.png",
-    comment:
-      '"Quality of work is incredible and project completed efficiently within time-frame."',
-    name: "Kelvin",
-    title: "Co-Director",
-  },
-  {
-    logo: "NG.svg",
-    avatar: "Chinwe.jpeg",
-    comment:
-      '"Excellent working experience working with them. Highly recommend."',
-    name: "Chinwe",
-    title: "Team Lead",
-  },
-];
+console.log(result);
+//console.log(result2.name);
+const staff = people.find((x) => x.id === Number(person));
 
-export const people = [
-  {
-    id: 1,
-    name: "Femi Alogba",
-    role: "Designer/Developer",
-    desc: "Make eye-catching explainer videos for your business or product. Let's make a video that matches the tone and style of your brand.",
-    longDesc:
-      "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
-    photo: "Femi.jpg",
-    photoBW: "Femi-BW.jpg",
-    image: "Femi-BW.jpg",
-  },
-  {
-    id: 2,
-    name: "Paul Kyunni",
-    role: "Designer",
-    desc: "Create fun and engaging responsive websites. We guarantee that your websites also functions well in search engines.",
-    longDesc:
-      "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
-    photo: "Paul.jpg",
-    photoBW: "Paul-BW.jpg",
-    image: "Paul-BW.jpg",
-  },
-  {
-    id: 3,
-    name: "Happiness Obelley",
-    role: "Writer",
-    desc: "Create fun and engaging responsive websites. We guarantee that your websites also functions well in search engines.",
-    longDesc:
-      "Test description to play with data UI integration.Test description to play with data UI integration.Test description to play with data UI integration.",
-    photo: "Happiness.jpg",
-    photoBW: "Happiness-BW.jpg",
-    image: "Happiness-BW.jpg",
-  },
-];
+{staff == undefined ? (
+  <section>
+    <h1>Loading...</h1>
+  </section>
+) : (

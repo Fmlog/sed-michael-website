@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "DM Sans", sans-serif;
-  background: rgb(255, 240, 247);
+  background-color: rgb(255, 240, 247);
   background: linear-gradient(
     68deg,
     rgba(255, 240, 247, 1) 0%,
@@ -12,68 +12,66 @@ body {
   );
   z-index: -6;
   position: relative;
-}
-.cursor {
-  pointer-events: none;
-  background-color: rgb(255, 255, 255);
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  z-index: 99;
-  mix-blend-mode: difference;
-}
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-* {
-  box-sizing: border-box;
-}
-.circle {
-  height: 100vh;
-  width: 100vh;
-  border-radius: 50%;
-  position: absolute;
-  z-index: -5;
-  opacity: 1;
-  margin: auto;
-}
-.button {
-  border: none;
-  background-color: #000000;
-  color: white;
-  font-weight: 700;
-  width: max-content;
-  font-size: 18px;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  transition: all 0.5s ease;
-}
-.button:hover {
-  transform: scale(1.1);
-  box-shadow: 3px 3px gray;
-}
-@media screen and (max-width: 480px) {
-  .cursor{display: none;}
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+  .navspace {
+    height: 70px;
   }
-  body {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .cursor {
+    pointer-events: none;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 99;
+    mix-blend-mode: difference;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .circle {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -5;
+    opacity: 1;
+    margin: auto;
+  }
+  .button {
+    border: none;
+    background-color: #3ba3f8;
     color: white;
-    background: black;
+    width: max-content;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+  }
+  .button:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cursor {
+    display: none;
   }
 }

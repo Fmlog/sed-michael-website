@@ -1,4 +1,4 @@
-import styles from "../styles/Testimonials.module.css";
+import styles from "../styles/Testimonials.module.scss";
 import Circle from "./Circle";
 import { testimonials } from "../data.js";
 import Image from "next/image";

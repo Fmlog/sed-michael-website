@@ -1,5 +1,4 @@
-import styles from "../styles/Clients.module.css";
-import Image from "next/image";
+import styles from "../styles/Clients.module.scss";
 
 function Clients() {
   return (

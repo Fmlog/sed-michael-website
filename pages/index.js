@@ -5,11 +5,11 @@ import Intro from "../components/Intro";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
 import { projects } from "../data.js";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 
 export default function Home({ services }) {
   return (
-    <div className={styles.container} /*id="invertedcursor"*/>
+    <div className={styles.container}>
       <Head>
         <title>Sed Michael</title>
         <meta

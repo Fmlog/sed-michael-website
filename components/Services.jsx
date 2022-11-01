@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/Services.module.css";
+import styles from "../styles/Services.module.scss";
 import Image from "next/image";
 
 function Services({ services }) {

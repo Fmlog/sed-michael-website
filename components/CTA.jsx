@@ -1,4 +1,4 @@
-import styles from "../styles/CTA.module.css";
+import styles from "../styles/CTA.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 
