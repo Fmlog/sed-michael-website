@@ -3,6 +3,9 @@ pages/graphic-design/
 pages/video/
 pages/web/
 
+# Ignore test html pages
+/*.html
+/index.html
 # dependencies
 /node_modules
 /.pnp
