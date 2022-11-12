@@ -16,8 +16,7 @@ function Navbar() {
             alt="sed-michael-logo"
           />
         </Link>
-        <nav>
-          <ul className={styles.list}>
+        <nav className={styles.list}>
             <li className={styles.listItem}>
               <Link href="/about">about</Link>
             </li>
@@ -30,15 +29,13 @@ function Navbar() {
             <li className={styles.listItem}>
               <Link href="/careers">careers</Link>
             </li>
-          </ul>
         </nav>
         <div className={styles.hamburger} onClick={() => setOpen(!open)}>
           <div className={styles.line} />
           <div className={styles.line} />
           <div className={styles.line} />
         </div>
-        <nav>
-          <ul
+          <nav
             onClick={() => setOpen(false)}
             className={styles.menu}
             style={{ right: open ? "0px" : "-100vw" }}
@@ -55,8 +52,7 @@ function Navbar() {
             <li className={styles.menuItem}>
               <Link href="/careers">careers</Link>
             </li>
-          </ul>
-        </nav>
+          </nav>
       </div>
     </header>
   );
