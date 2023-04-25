@@ -106,15 +106,15 @@ function Footer() {
               <div className={""}>
                 <ul className={styles.list}>
                   <li className={styles.listItem}>
-                    <Link href="/attract/">Attract your audience</Link>
+                    <Link href="/contact/">Attract your audience</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/explain/">
+                    <Link href="/contact/">
                       Explain your product, service or idea
                     </Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/support/">
+                    <Link href="/contact/">
                       Support your prospects &amp; customers
                     </Link>
                   </li>
@@ -124,7 +124,7 @@ function Footer() {
           </div>
           <div className={styles.widget}>
             <div className={""}>
-              <h4 className={styles.title}>Video Types</h4>
+              <h4 className={styles.title}>Services</h4>
               <div className={""}>
                 <ul className={styles.list}>
                   <li className={styles.listItem}>

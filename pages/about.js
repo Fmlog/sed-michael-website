@@ -6,7 +6,7 @@ import Staff from "../components/Staff";
 import styles from "../styles/About.module.scss";
 import { useRouter } from "next/router";
 
-const customStyles = {
+let customStyles = {
   content: {
     top: "50%",
     left: "50%",

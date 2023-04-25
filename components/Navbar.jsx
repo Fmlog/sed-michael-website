@@ -8,12 +8,13 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className={styles.container}>
-        <Link href="/" className={styles.logo}>
+        <Link href="/" >
           <Image
             src="/img/sedmichael-wt-logo.svg"
             width="150px"
             height="40px"
             alt="sed-michael-logo"
+            className={styles.logo}
           />
         </Link>
         <nav className={styles.list}>
@@ -21,13 +22,10 @@ function Navbar() {
               <Link href="/about">about</Link>
             </li>
             <li className={styles.listItem}>
-              <Link href="/work">work</Link>
+              <Link href="/services">services</Link>
             </li>
             <li className={styles.listItem}>
-              <Link href="/services">expertise</Link>
-            </li>
-            <li className={styles.listItem}>
-              <Link href="/careers">careers</Link>
+              <Link href="/contact">contact</Link>
             </li>
         </nav>
         <div className={styles.hamburger} onClick={() => setOpen(!open)}>

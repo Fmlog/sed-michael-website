@@ -12,7 +12,7 @@ function Intro() {
         <h1 className={styles.title}>
           <Typewriter
             options={{
-              strings: ["Graphic Design", "Web Design", "Animation"],
+              strings: ["Web Design", "Graphic Design", "Custom Software Development"],
               autoStart: true,
               delay: 50,
               loop: true,

@@ -5,10 +5,10 @@ import Image from "next/image";
 function CTA() {
   return (
     <div className={styles.container}>
-      <div class={styles.heroBackground}>
-        <div class={styles.topRadius}></div>
-        <div class={styles.topInnerRadius}></div>
-        <div class={styles.bottomRadius}></div>
+      <div className={styles.heroBackground}>
+        <div className={styles.topRadius}></div>
+        <div className={styles.topInnerRadius}></div>
+        <div className={styles.bottomRadius}></div>
       </div>
       <div className={styles.wrapper}>
         <div className={styles.card}>

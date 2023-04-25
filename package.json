@@ -15,10 +15,11 @@
     "react-dom": "18.2.0",
     "react-modal": "^3.16.1",
     "sass": "^1.55.0",
+    "swr": "^2.1.4",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
-    "eslint": "8.24.0",
+    "eslint": "^8.24.0",
     "eslint-config-next": "12.3.1"
   }
 }
