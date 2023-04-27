@@ -31,7 +31,7 @@ function About() {
           with our client&apos;s audiences and transformed our clients&apos; digital
           reflection.
         </p>
-        <h1 className={styles.title}>Our Team</h1>
+        {/* <h1 className={styles.title}>Our Team</h1>
         <div className={styles.people}>
           {people.map((staff) => (
             <div key={staff.id} className={styles.serviceContainer}>
@@ -76,7 +76,7 @@ function About() {
           style={customStyles}
         >
           <Staff person={router.query.person} />
-        </Modal>
+        </Modal> */}
       </div>
     </div>
   );
