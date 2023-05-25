@@ -128,18 +128,19 @@ function Footer() {
               <div className={""}>
                 <ul className={styles.list}>
                   <li className={styles.listItem}>
-                    <Link href="/animated-video/">Animated Video</Link>
+                    <Link href="/animated-video/">Cloud Migration</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/live-action-video/">Live Action Video</Link>
+                    <Link href="/live-action-video/">Web Development</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/animated-graphics/">Animated Graphics</Link>
+                    <Link href="/animated-graphics/">Mobile App Development</Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+{/*           
           <div className={styles.widget}>
             <div className={""}>
               <h4 className={styles.title}>Use Cases</h4>
@@ -183,7 +184,7 @@ function Footer() {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className={styles.widget}>
             <div className={""}>
               <h4 className={styles.title}>Other Pages</h4>
@@ -210,7 +211,7 @@ function Footer() {
                     <Link href="/guides/">Guides</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/contact-us/">Contact Us</Link>
+                    <Link href="/contact/">Contact Us</Link>
                   </li>
                 </ul>
               </div>

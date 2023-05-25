@@ -1,6 +1,6 @@
-import styles from "../styles/CTA.module.scss";
-import Link from "next/link";
-import Image from "next/image";
+import styles from '../styles/CTA.module.scss';
+import Link from 'next/link';
+import Image from 'next/image';
 
 function CTA() {
   return (
@@ -13,19 +13,20 @@ function CTA() {
       <div className={styles.wrapper}>
         <div className={styles.card}>
           <h1 className={styles.title}>
-            Want to Upscale your brand&apos;s visual reputation?
+            Upscale your online presence with a tailored web experience
+            {' '}
           </h1>
-          <button className="button">
-            <Link href="/contact">Contact</Link>
+          <button className='button'>
+            <Link href='/contact'>Contact</Link>
           </button>
         </div>
         <div className={styles.image}>
           <Image
-            src="/img/call-to-action.svg"
-            width="700px"
-            height="500px"
-            objectFit="fill"
-            alt="sedmichael-call-to-action"
+            src='/img/call-to-action.svg'
+            width='700px'
+            height='500px'
+            objectFit='fill'
+            alt='sedmichael-call-to-action'
           />
         </div>
       </div>

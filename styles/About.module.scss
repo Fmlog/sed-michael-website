@@ -12,62 +12,64 @@
     .title {
       font-size: 40px;
     }
+    .subtitle {
+      margin: 0px;
+    }
+    .about {
+      flex: 1;
+    }
     p {
       font-size: 20px;
       width: 800px;
+      padding-bottom: 50px;
+    }
+
+    .wrapper {
+      width: 70vw;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      padding-bottom: 50px;
+      .why {
+        padding-right: 50px;
+      }
     }
     .people {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       padding-bottom: 100px;
-
-      .person {
-        display: flex;
-        flex-direction: column;
-        width: 400px;
-        margin-right: 30px;
-        background-color: white;
-        margin-bottom: 20px;
-        &:hover {
-          .media {
-            transform: scale(1.05);
-            cursor: pointer;
-          }
-        }
-
+    }
+    .person {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      margin-right: 30px;
+      background-color: white;
+      margin-bottom: 20px;
+      .serviceContainer {
+      }
+      &:hover {
         .media {
-          width: 400px;
-          height: 400px;
-          position: relative;
-          display: inline-block;
-          transition: all 0.5s ease;
-          .imageTop {
-            display: none;
-            z-index: 99;
-          }
-          .image {
-            z-index: 99;
-          }
-          &:hover {
-            .image {
-              display: none;
-            }
-            &:hover {
-              .imageTop {
-                display: unset;
-              }
-            }
-          }
+          transform: scale(1.05);
+          cursor: pointer;
         }
-        .description {
-          padding: 15px 20px;
-          color: black;
-          &:hover {
-            h3 {
-              cursor: pointer;
-              text-decoration: underline;
-            }
+      }
+
+      .media {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        display: inline-block;
+        transition: all 0.5s ease;
+      }
+      .description {
+        padding: 15px 20px;
+        color: black;
+        &:hover {
+          h3 {
+            cursor: pointer;
+            text-decoration: underline;
           }
         }
       }

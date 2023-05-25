@@ -1,23 +1,23 @@
-import { people } from "../data.js";
-import Link from "next/link";
-import Image from "next/image";
-import Modal from "react-modal";
-import Staff from "../components/Staff";
-import styles from "../styles/About.module.scss";
-import { useRouter } from "next/router";
+import { people } from '../data.js';
+import Link from 'next/link';
+import Image from 'next/image';
+import Modal from 'react-modal';
+import Staff from '../components/Staff';
+import styles from '../styles/About.module.scss';
+import { useRouter } from 'next/router';
 
 let customStyles = {
   content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
   },
 };
 
-Modal.setAppElement("#__next");
+Modal.setAppElement('#__next');
 function About() {
   const router = useRouter();
   return (
@@ -28,9 +28,32 @@ function About() {
           We are a forward-thinking digital agency that assists clients in
           translating their messages via creative thought and implementation.
           Since our inception in 2020, we have produced work that has engaged
-          with our client&apos;s audiences and transformed our clients&apos; digital
-          reflection.
+          with our client&apos;s audiences and transformed our clients&apos;
+          digital reflection.
         </p>
+        <div className={styles.wrapper}>
+          <div className={styles.nav}>
+            <h2 className={styles.title}> Why Choose Us?</h2>
+            <p className={styles.why}>
+              At Sed Michael Digital, our team of experienced developer brings
+              together a wide range of software and design skills. We are
+              dedicated to understanding your needs and providing creative
+              solutions for your web development projects. With our expertise
+              and collaborative approach, we ensure a smooth workflow and
+              innovative outcomes tailored to your requirements.
+            </p>
+          </div>
+
+          <div className={styles.image}>
+            <Image
+              src='/img/About-us.jpg'
+              width='700px'
+              height='500px'
+              objectFit='fill'
+              alt='sedmichael-call-to-action'
+            />
+          </div>
+        </div>
         {/* <h1 className={styles.title}>Our Team</h1>
         <div className={styles.people}>
           {people.map((staff) => (
