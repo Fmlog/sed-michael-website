@@ -13,9 +13,9 @@ function Intro() {
           <Typewriter
             options={{
               strings: [
-                'Cloud Migration',
-                'Mobile Development',
                 'Web Development',
+                'Mobile Development',
+                'Cloud Migration',
               ],
               autoStart: true,
               delay: 50,

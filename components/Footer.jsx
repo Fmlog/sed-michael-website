@@ -128,13 +128,13 @@ function Footer() {
               <div className={""}>
                 <ul className={styles.list}>
                   <li className={styles.listItem}>
-                    <Link href="/animated-video/">Cloud Migration</Link>
+                    <Link href="/Cloud%20Migration/">Cloud Migration</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/live-action-video/">Web Development</Link>
+                    <Link href="/Web%20Development/">Web Development</Link>
                   </li>
                   <li className={styles.listItem}>
-                    <Link href="/animated-graphics/">Mobile App Development</Link>
+                    <Link href="/Mobile%20App%20development/">Mobile App Development</Link>
                   </li>
                 </ul>
               </div>

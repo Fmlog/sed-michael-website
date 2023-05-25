@@ -3,26 +3,18 @@ export const projects = [
     name: 'Cloud Migration',
     title: 'Cloud Migration',
     desc: 'Our cloud migration service assists in migrating application workloads to cloud platforms, including re-architecting and modernizing applications. Migrate application workloads onto built cloud platforms, re-architect and modernise applications throughout the process.',
-    longDesc: 'Our cloud migration service assists in migrating application workloads to cloud platforms, including re-architecting and modernizing applications. Migrate application workloads onto built cloud platforms, re-architect and modernise applications throughout the process.',
+    longDesc:
+      'Our cloud migration service assists in migrating application workloads to cloud platforms, including re-architecting and modernizing applications. Migrate application workloads onto built cloud platforms, re-architect and modernise applications throughout the process.',
     photo: 'Cloud-illustration.svg',
     images: [
       {
-        url: 'https://images.pexels.com/photos/962000/pexels-photo-962000.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'Cloud.jpg',
       },
       {
-        url: 'https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'cloud2.jpg',
       },
       {
-        url: 'https://images.pexels.com/photos/3593865/pexels-photo-3593865.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/4065906/pexels-photo-4065906.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/6373305/pexels-photo-6373305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'Cloud3.jpg',
       },
     ],
   },
@@ -36,22 +28,13 @@ export const projects = [
     photo: 'web-design.svg',
     images: [
       {
-        url: 'https://images.pexels.com/photos/962000/pexels-photo-962000.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'webdev1.jpg',
       },
       {
-        url: 'https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'webdev2.jpg',
       },
       {
-        url: 'https://images.pexels.com/photos/3593865/pexels-photo-3593865.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/4065906/pexels-photo-4065906.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/6373305/pexels-photo-6373305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'webdev3.jpg',
       },
     ],
   },
@@ -64,23 +47,15 @@ export const projects = [
     photo: 'graphic-design.svg',
     images: [
       {
-        url: 'https://images.pexels.com/photos/962000/pexels-photo-962000.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'mobapp1.jpg',
       },
       {
-        url: 'https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'mobapp2.jpg',
       },
       {
-        url: 'https://images.pexels.com/photos/3593865/pexels-photo-3593865.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        url: 'mobapp3.jpg',
       },
-      {
-        url: 'https://images.pexels.com/photos/4065906/pexels-photo-4065906.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/6373305/pexels-photo-6373305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
-      {
-        url: 'https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-      },
+
     ],
   },
 ];

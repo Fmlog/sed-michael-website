@@ -11,7 +11,7 @@ function Work({ work }) {
         {work.images.map((img) => (
           <div key={img.id} className={styles.image}>
             <Image
-              src={img.url}
+              src={`/img/${img.url}`}
               objectFit="cover"
               layout="fill"
               alt=""
